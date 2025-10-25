@@ -68,18 +68,19 @@
     <!-- CSS (AOS) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
-    <!-- Analytics -->
-    <!-- EDITAR AQUI: Substitua 'G-XXXXXXXXXX' pelo seu ID do Google Analytics 4. -->
+    <!-- Analytics - Desativado temporariamente para evitar erros no build. -->
+    <!-- Para ativar, remova os comentários e substitua os IDs de exemplo. -->
+    <!-- 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      // EDITAR AQUI: Substitua 'G-XXXXXXXXXX' pelo seu ID do Google Analytics 4.
       gtag('config', 'G-XXXXXXXXXX');
     </script>
+    -->
 
-    <!-- EDITAR AQUI: Substitua '123456789012345' pelo seu ID do Meta Pixel. -->
+    <!-- 
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -89,10 +90,10 @@
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      // EDITAR AQUI: Substitua '123456789012345' pelo seu ID do Meta Pixel.
       fbq('init', '123456789012345');
       fbq('track', 'PageView');
     </script>
+    -->
 
 <script type="importmap">
 {
@@ -105,10 +106,12 @@
 </script>
 </head>
 <body>
-    <!-- EDITAR AQUI: Substitua '123456789012345' pelo seu ID do Meta Pixel. -->
+    <!-- Meta Pixel NoScript - Desativado temporariamente -->
+    <!-- 
     <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=123456789012345&ev=PageView&noscript=1"
     /></noscript>
+    -->
     <div id="root"></div>
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
