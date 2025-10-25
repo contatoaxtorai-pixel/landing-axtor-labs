@@ -26,7 +26,7 @@ export default async function handler(req: Request) {
     }
 
     // 2. Chamar o seu webhook de IA já existente
-    const YOUR_AI_WEBHOOK_URL = 'https://inteligencepro-n8n.g9wajy.easypanel.host/webhook/b9dbd78a-f291-4ebb-a8db-a8ea44a08290;
+    const YOUR_AI_WEBHOOK_URL = 'https://inteligencepro-n8n.g9wajy.easypanel.host/webhook/b9dbd78a-f291-4ebb-a8db-a8ea44a08290';
 
     // 3. Formatar os dados para simular uma requisição da Z-API, como seu webhook espera.
     // O objeto abaixo imita a estrutura que seu n8n recebe.
